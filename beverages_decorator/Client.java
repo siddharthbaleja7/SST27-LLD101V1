@@ -11,7 +11,8 @@ public class Client {
 		System.out.println(coffee.cost());
 		
 		
-
+		coffee = new Milk(coffee);
+		System.out.println("Cappuccino + Milk: " + coffee.cost());
 	}
 
 }
